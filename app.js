@@ -45,5 +45,5 @@ function newGame() {
     exibirTexto('h1', 'Número Secreto');
     exibirTexto('p', 'Escolha um número de 1 a 10');
     document.getElementById('reiniciar').setAttribute('disabled',true);
-    
+    console.log('novo jogo iniciado');
 }
